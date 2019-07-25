@@ -17,7 +17,7 @@ class MyApp extends StatefulWidget {
 void jobSchedulerCallback() async {
   // Search Logcat for Yolo to see the the Callback firing
   // when the app is not running.
-  print('Yolo executing');
+  print('Restra Job executing');
   final file = await getCommonStateFile();
   if (!await file.exists()) {
     await file.writeAsString("0");
